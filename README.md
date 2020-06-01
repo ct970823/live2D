@@ -4,11 +4,11 @@
 
 ## 普通静态页中
 
-# 首先先下载L2Dwidget.min.js（在html文件夹的js中）
+### 首先先下载L2Dwidget.min.js（在html文件夹的js中）
 
-# 在html中引用该js
+### 在html中引用该js
 
-# 初始化
+### 初始化
 ```javascript
 L2Dwidget.init({"display": {
 	"superSample": 2,
@@ -23,15 +23,15 @@ L2Dwidget.init({"display": {
 
 ## vue中使用
 
-# 首先下载文件资源（可以直接下载我的，在static中）
+### 首先下载文件资源（可以直接下载我的，在static中）
 
-# 在根目录中的index.html中引入js
+### 在根目录中的index.html中引入js
 
 ```javascript
 <script src="/static/live2dw/lib/L2Dwidget.min.js"></script>
 ```
 
-# 在App.vue中初始化
+### 在App.vue中初始化
 ```javascript
 created(){
 	setTimeout(()=>{
